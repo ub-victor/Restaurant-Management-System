@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, serif;
+    background-color: #e6caa5;
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: #e6caa5;
+    padding: 10px;
+    position: relative;
+}
+
+.logo {
+    width: 80px;
+    vertical-align: middle;
+}
+
+.menu {
+    list-style: none;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 25px;
+    font-weight: bold;
+}
+
+/* Banner */
+.banner img {
+    width: 100%;
+    height: 200px;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    padding: 10px;
+}
+
+/* Left */
+.left img {
+    width: 250px;
+}
+
+/* Center */
+.center {
+    width: 45%;
+    padding: 0 20px;
+}
+
+.center h2 {
+    margin-top: 0;
+}
+
+.green {
+    color: green;
+}
+
+/* Articles */
+.article {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.article img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+/* Right Form */
+.right {
+    width: 25%;
+    background-color: #b6e000;
+    padding: 15px;
+}
+
+.right h3 {
+    font-size: 14px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 5px;
+}
+
+.buttons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+button {
+    padding: 5px 15px;
+    margin: 5px;
+}
