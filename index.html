@@ -1,33 +1,122 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Management System</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Top bar -->
-     <div class="top-bar">
-        <div class="logo">
-            <img src="img/logo.PNG" alt="logo">
+
+    <!-- Top Navigation -->
+    <div class="top-bar">
+        <img src="img/logo.png" class="logo">
+
+        <ul class="menu">
+            <li>HOME</li>
+            <li>SERVICES</li>
+            <li>PRODUCTS</li>
+            <li>FINANCE</li>
+            <li>CONTACT_US</li>
+            <li>HELP</li>
+            <li>LOGOUT</li>
+        </ul>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner">
+        <img src="img/banner.png">
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <!-- Left Images -->
+        <div class="left">
+            <img src="img/left.png">
         </div>
 
-        <div class="nav">
-            <a href="#">HOME</a>
-            <a href="#">SERVICES</a>
-            <a href="#">PRODUCTS</a>
-            <a href="#">FINANCE</a>
-            <a href="#">CONTACT</a>
-            <a href="#">HELP</a>
-            <a href="#">LOGOUT</a>
-        </div>
-     </div>
+        <!-- Center Content -->
+        <div class="center">
+            <h2>WELCOME TO GREEN PLANET!</h2>
+            <p>
+                Green Planet is a free website template created by templates.com team.
+                This website template is optimized for 1024x768 screen resolution.
+                It is also XHTML & CSS valid.
+            </p>
 
-     <!-- Banner -->
-    <div class="left-side">
-        <div class="food-grid">
-            
+            <p>
+                The website template goes with two packages-with PSD source files and
+                without them,PSD source files are available for free for the registered
+                members of Templates.com.The basic package(without PSD is available
+                for anyone without registration).
+            </p>
+
+            <h3>RECENT ARTICLES</h3>
+
+            <div class="article">
+                <img src="img/coffee.png">
+                <div>
+                    <h4 class="green">COFFEE TEA</h4>
+                    <p>
+                        From our site you will learn interesting facts about
+                        Green Planet and its inhabitants.Your journey starts here !
+                    </p>
+                </div>
+            </div>
+
+            <div class="article">
+                <img src="img/pizza.png">
+                <div>
+                    <h4 class="green">VEGETARIAN PIZZA</h4>
+                    <p>
+                        Free 1028x768 Optimized Website Template from templates.com!
+                        we really hope that you like this template and will use for
+                        your websites.
+                    </p>
+                </div>
+            </div>
+
+            <div class="article">
+                <img src="img/vegetables.png">
+                <div>
+                    <h4 class="green">FRESH VEGETABLES</h4>
+                    <p>
+                        The captivating stories about the journey to the green
+                        Planet you can read in this sample article.
+                    </p>
+                </div>
+            </div>
         </div>
+
+        <!-- Right Form -->
+        <div class="right">
+            <h3>FILL THIS FORM TO INSERT INTO THE DATABASE</h3>
+
+            <form>
+                <label>NAMES:</label>
+                <input type="text">
+
+                <label>ADDRESS:</label>
+                <input type="text">
+
+                <label>SEX:</label>
+                <input type="text">
+
+                <label>POSITION:</label>
+                <input type="text">
+
+                <label>USER-NAME:</label>
+                <input type="text">
+
+                <label>PASSWORD:</label>
+                <input type="password">
+
+                <div class="buttons">
+                    <button type="submit">SUBMIT</button>
+                    <button type="button">RETRIEVE</button>
+                </div>
+            </form>
+        </div>
+
     </div>
 
 </body>
