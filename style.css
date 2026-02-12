@@ -36,13 +36,13 @@ body {
 
 /* Layout */
 .container {
-    display: flex;
+    display: flex; 
     padding: 10px;
 }
 
 /* Left */
 .left img {
-    width: 250px;
+    width: 450px;
 }
 
 /* Center */
